@@ -404,7 +404,7 @@ namespace PckStudio.Controls
         {
             const string cDEFLATE = "PS3";
             const string cXMEM = "Xbox 360";
-            const string cZSTD = "Windows (Renewed Fork)";
+            const string cZSTD = "Windows (Project Zenith)";
             const string cZLIB = "Other Platforms";
 
             ItemSelectionPopUp dialog = new ItemSelectionPopUp(cZLIB, cDEFLATE, cXMEM, cZSTD);

@@ -81,7 +81,7 @@ namespace OMI.Workers.GameRule
             using (Stream deflateStream = _grfFile.Header.CompressionType switch
             {
                 GameRuleFile.CompressionType.Zlib => new DeflaterOutputStream(outputStream),
-                GameRuleFile.CompressionType.Zstd => new CompressionStream(outputStream),
+                GameRuleFile.CompressionType.Zstd => new CompressionStream(outputStream, 6),
                 GameRuleFile.CompressionType.Deflate => new DeflateStream(outputStream, CompressionLevel.Optimal),
                 GameRuleFile.CompressionType.XMem => throw new NotImplementedException(),
                 _ => throw new NotImplementedException(),

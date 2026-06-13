@@ -119,7 +119,7 @@ namespace OMI.Formats.GameRule
             /// </summary>
             XMem,
             /// <summary>
-            /// Zstd compression is used on Windows (Renewed fork)
+            /// Zstd compression is used on Windows (Project Zenith)
             /// </summary>
             Zstd,
         }

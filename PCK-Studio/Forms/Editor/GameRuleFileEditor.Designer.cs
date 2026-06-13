@@ -293,7 +293,7 @@
             this.windowsToolStripMenuItem.Name = "windowsToolStripMenuItem";
             this.windowsToolStripMenuItem.ShowShortcutKeys = false;
             this.windowsToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
-            this.windowsToolStripMenuItem.Text = "Windows (Renewed Fork)";
+            this.windowsToolStripMenuItem.Text = "Windows (Project Zenith)";
             this.windowsToolStripMenuItem.CheckedChanged += new System.EventHandler(this.windowsToolStripMenuItem_CheckedChanged);
             // 
             // tableLayoutPanel1
